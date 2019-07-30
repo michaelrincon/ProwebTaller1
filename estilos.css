@@ -1,19 +1,30 @@
+body{
+    margin:0;
+}
 
 header{
+    width: 100%;
+    background: #252424;
+    position: sticky;
+    top: 0;
+}
+
+h1{
     font-family: 'Butcherman', cursive;
     font-size: 30px;
 }
 
+
 .links-menu{
     list-style-type: none; 
-    position: fixed;  
-
- 
+    display:flex;
+    margin: 0;
+    padding: 0;
 }
 
 .links-menu li{
-    display: inline;
-
+    flex-grow: 1;
+    text-align: center;
 }
 
 .links-menu li a{
@@ -21,17 +32,16 @@ header{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    float: left;
-    padding: 10px;
-    background-color: #252424;
+    padding: 10px 15px;
+    display: block;
 }
 
 .links-menu li a:hover{
     background-color: #837D7D;
 }
 
-main{ 
-    padding-top: 80px;
+#datosbio{ 
+    padding-top: 50px;
 }
 
 .titulos{
