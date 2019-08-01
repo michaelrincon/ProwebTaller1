@@ -109,7 +109,7 @@ h1{
     color:black;
 }
 
-/*imagen flotante a la izquierda*/
+/*imagenes*/
 #img-bienvenida{
     width: 20%;
     float: left;
@@ -119,6 +119,20 @@ h1{
     -webkit-box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
     -moz-box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
     box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
+    margin: 20px;
+}
+#imagen-dos{
+    width: 50%;
+    float: inline-end;
+    padding: 10px;
+    border-radius: 20px 30px;
+    margin: 20px;
+}
+#imagen-tres{
+    width: 33%;
+    float: inline-end;
+    padding: 10px;
+    border-radius: 50px 30px;
     margin: 20px;
 }
 
@@ -158,4 +172,10 @@ th {
 /*parrafos*/
 p{
     font-family: 'Fira Code', monospace;
+}
+
+/*video de youtube*/
+iframe{
+    width: 560;
+    height:315;
 }

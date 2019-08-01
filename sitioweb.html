@@ -6,7 +6,7 @@
         <meta name="robots" content="follow">
         <link rel="stylesheet" type="text/css" href="estilos.css">
         <link href="https://fonts.googleapis.com/css?family=Fira+Code|Butcherman|Butterfly+Kids|Fascinate|Geostar+Fill|Indie+Flower|Londrina+Shadow|Roboto|Slabo+27px&display=swap" rel="stylesheet">
-        
+        <script type="text/javascript" src="funcionamiento.js"></script>        
         <title>Sitio web personal</title>
 
     </head>
@@ -24,7 +24,7 @@
         <h1>Sitio web personal</h1>
         <main>
             <div>
-                <section id="bienveni">
+                <section onmouseleave="fondoSecLeave()" onmouseover="fondoSecOver()" id="bienveni">
                 <h2 class="titulos">Bienvenido a mi pagina web</h2>
                 <img id="img-bienvenida" src="imagen1.jpg"></img>
                 <p>Esta pagina es un taller en clase, espero que me quede bien.
@@ -53,7 +53,7 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                 </section>
             </div>
             
-            <section id="datosbio">
+            <section onmouseleave="fondoSecLeave()" onmouseover="fondoSecOver()" id="datosbio">
                 <h2 class="titulos">Datos biograficos</h2>
                 <p>Datos biograficos de los creadores de la pagina</p>
                 <table>
@@ -98,7 +98,7 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                     </tbody>
                 </table>
             </section>
-            <section id="expe">
+            <section onmouseleave="fondoSecLeave()" onmouseover="fondoSecOver()" id="expe">
                 <h2 class="titulos">Experiencia laboral, de estudios, premios, producción intelectual</h2>
                 <p>Experiencia, premios y demas cosas importantes de los creadores de la pagina<p>
                 <ul>
@@ -138,7 +138,7 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                     </ol>
                 </div>   
             </section>
-            <section id="inter">
+            <section onmouseleave="fondoSecLeave()" onmouseover="fondoSecOver()" id="inter">
                 <h2 class="titulos">Material de interes</h2>
                 <p>Aqui se encuentra el material de interes publicado por los creadores de la pagina</p>
                 <h3>Enlaces de interes</h3>
@@ -149,8 +149,8 @@ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                 <h3>Videos de interes</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <h3>Imagenes</h3>
-                <img src="guau.webp"></img>
-                <img src="guau2.webp"></img>
+                <img id="imagen-dos"  src="guau.webp"></img>
+                <img id="imagen-tres" src="guau2.webp"></img>
             </section>
         </main>
     </body>
