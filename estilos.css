@@ -122,15 +122,15 @@ h1{
     margin: 20px;
 }
 #imagen-dos{
-    width: 50%;
-    float: inline-end;
+    width: 20%;
+    float: left;
     padding: 10px;
     border-radius: 20px 30px;
     margin: 20px;
 }
 #imagen-tres{
-    width: 33%;
-    float: inline-end;
+    width: 13%;
+    float: left;
     padding: 10px;
     border-radius: 50px 30px;
     margin: 20px;
@@ -178,4 +178,12 @@ p{
 iframe{
     width: 560;
     height:315;
+}
+
+/*div del chat*/
+#texto{
+    width: 70%;
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
 }

@@ -14,3 +14,22 @@ function fondoSecOut(sec){
     sec.style.borderColor="white"
     sec.style.padding="20px";
 }
+
+/*Funcion scroll lento*/
+function scroll(){
+    window.scrollTo(0,1000);
+}
+window.onload=function(){
+    document.getElementsByTagName("a").onclick=scroll
+}
+
+/*Funcion formulario chat*/
+function chat(){
+    chatdiag= document.getElementById("texto")
+    nombre=document.chatt.nombre.value
+    mensaje=document.chatt.mensaje.value
+    chatdiag.innerHTML=chatdiag.innerHTML+"<br>"+nombre+":"+mensaje
+}
+window.onload=function(){
+    document.chatt.enviar.onclick = chat
+}
