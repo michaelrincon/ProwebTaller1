@@ -28,7 +28,15 @@ function chat(){
     chatdiag= document.getElementById("texto")
     nombre=document.chatt.nombre.value
     mensaje=document.chatt.mensaje.value
-    chatdiag.innerHTML=chatdiag.innerHTML+"<br>"+nombre+":"+mensaje
+    if(nombre ==""|| mensaje==""){
+        alert("llene todos los campos")
+    }else {
+        if(mensaje.length >301)
+        alert("el mensaje es muy largo.Escriba otro")
+        else
+        chatdiag.innerHTML=chatdiag.innerHTML+"<br>"+nombre+":"+mensaje
+    }
+    
 }
 window.onload=function(){
     document.chatt.enviar.onclick = chat
