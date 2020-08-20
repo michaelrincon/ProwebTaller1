@@ -1,0 +1,189 @@
+body{
+    margin:0;
+}
+
+header{
+    width: 100%;
+    background: #252424;
+    position: sticky;
+    top: 0;
+}
+
+/*titulo principal*/
+h1{
+    font-family: 'Butcherman', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*subrayado de titulos*/
+.titulos, h3{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-family: 'Slabo 27px', serif;
+}
+
+/*menu pegado en la parte superior*/
+.links-menu{
+    list-style-type: none; 
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+.links-menu li{
+    flex-grow: 1;
+    text-align: center;
+}
+.links-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    display: block;
+}
+.links-menu li a:hover{
+    background-color: #837D7D;
+}
+
+/*secciones*/
+#datosbio, #bienveni, #expe, #inter{ 
+    padding: 20px;
+}
+
+/*seccion de experiencia*/
+#expe li{
+    color: red;
+}
+#expe li p{
+    color: deeppink
+}
+#expe li a{
+    text-decoration: none;
+}
+
+/*subsecciones de la seccion experiencia*/
+#lab,#estu,#premi,#inte{
+    border: solid;
+    border-color: #000;
+    padding: 10px;
+}
+#lab{
+    background: linear-gradient(70deg, #f5e007, white);
+    color:black;
+}
+#lab li{
+    color: red;
+}
+#lab li p{
+    color: #000;
+}
+#estu{
+    background: linear-gradient(70deg, blue, white);
+    color:black;
+}
+#estu li{
+    color: rgb(128, 0, 107);
+}
+#estu li p{
+    color: white;
+}
+#premi{
+    background: linear-gradient(70deg, green, white);
+    color:black;
+}
+#premi li{
+    color: brown;
+}
+#premi li p{
+    color: deeppink;
+}
+#inte{
+    background: linear-gradient(70deg, red, white);
+    color:black;
+}
+#inte li{
+    color: white;
+}
+#inte li p{
+    color:black;
+}
+
+/*imagenes*/
+#img-bienvenida{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border: solid;
+    border-color: #000;
+    -webkit-box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
+    box-shadow: -2px 1px 12px -1px rgba(0,0,0,1);
+    margin: 20px;
+}
+#imagen-dos{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    border-radius: 20px 30px;
+    margin: 20px;
+}
+#imagen-tres{
+    width: 13%;
+    float: left;
+    padding: 10px;
+    border-radius: 50px 30px;
+    margin: 20px;
+}
+
+/*tabla de la seccion datos biograficos*/
+table {    
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;    
+    margin: 5px;     
+    width: 100%; 
+    text-align: left;    
+    border-collapse: collapse; 
+}
+th {     
+    font-size: 25px;
+    font-weight: 300%;     
+    padding: 20px;     
+    background: darkblue;
+    border-top: 4px solid #05b7f9;    
+    border-bottom: solid 5px #05b7f9; 
+    color: white; 
+}
+.impar td {    
+    padding: 10px;     
+    background: #05f939;     
+    border-bottom: 1px solid #fff;
+    color: black;    
+    border-top: 1px solid transparent; 
+}
+.par td {    
+    padding: 10px;     
+    background: white;     
+    border-bottom: 1px solid #fff;
+    color: black;    
+    border-top: 1px solid transparent; 
+}
+
+/*parrafos*/
+p{
+    font-family: 'Fira Code', monospace;
+}
+
+/*video de youtube*/
+iframe{
+    width: 560;
+    height:315;
+}
+
+/*div del chat*/
+#texto{
+    width: 70%;
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
+}
